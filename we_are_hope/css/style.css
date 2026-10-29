@@ -66,10 +66,12 @@ header {
     flex: 1;
 }
 
-header h1 {
+.site-name {
+    color: white;
     font-size: 2rem;
     letter-spacing: 0.05em;
     margin-bottom: 0.5rem;
+    font-weight: bold;
 }
 
 
@@ -91,7 +93,7 @@ nav b::before{
     content: "";
     position: absolute;
     width: 0;
-    
+
 }
 
 nav a {
@@ -126,6 +128,7 @@ section {
 
 /* Main headings */
 
+h1,
 h2 {
     color: #167c55;
     font-size: 2rem;
@@ -156,7 +159,7 @@ p {
     background-color: #e5f3eb;
 }
 
-.hero h2 {
+.hero h1 {
     font-size: 3rem;
     font-weight: bold;
     margin-top: 1.5rem;
@@ -500,7 +503,7 @@ footer p.footer-bottom {
         flex-direction: column;
     }
 
-    .hero h2 {
+    .hero h1 {
         font-size: 2rem;
     }
 }
@@ -543,10 +546,11 @@ footer p.footer-bottom {
 
     /* Mobile headings */
 
-    header h1 {
+    .site-name {
         font-size: 1.6rem;
     }
 
+    h1,
     h2 {
         font-size: 1.6rem;
     }
@@ -562,7 +566,7 @@ footer p.footer-bottom {
         padding: 2rem 5%;
     }
 
-    .hero h2 {
+    .hero h1 {
         font-size: 1.8rem;
     }
 
